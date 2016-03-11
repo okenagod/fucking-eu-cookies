@@ -1,6 +1,6 @@
 (function(w, d){
-	var identificator = 'fucking-eu-cookies';
-	var userVariable = 'fucking_eu_config';
+	var identificator = 'bar-eu-cookies';
+	var userVariable = 'bar_eu_config';
 	var noShowEvent = 'no-show';
 	var showEvent = 'show';
 	var hideEvent = 'hide';
@@ -75,7 +75,7 @@
 		style.appendChild(d.createTextNode(includes.css));
 
 		var div = d.createElement('div');
-		div.className = identificator + ' fucking-priority';
+		div.className = identificator + ' bar-eu-priority';
 		div.innerHTML = html;
 		head.appendChild(style);
 		var insertTo = config.options.insertTo;
